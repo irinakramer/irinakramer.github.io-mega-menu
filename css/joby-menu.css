@@ -1,0 +1,352 @@
+/* 
+// =============================================
+// Joby Colors
+// ============================================= 
+*/
+/* med-grey 10% lighter */
+/* line 18, ../scss/joby-menu.scss */
+body {
+  background-size: 100%;
+  font-family: "pragmatica-web";
+}
+
+/* line 23, ../scss/joby-menu.scss */
+header {
+  width: 100%;
+  background-color: #333333;
+  display: table;
+  table-layout: fixed;
+  font-family: "pragmatica-web", sans-serif !important;
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+}
+/* line 33, ../scss/joby-menu.scss */
+header a {
+  text-decoration: none;
+}
+
+/* line 39, ../scss/joby-menu.scss */
+.hero img {
+  width: 100%;
+}
+
+/* line 43, ../scss/joby-menu.scss */
+.nav,
+.wrapper {
+  width: 100%;
+  max-width: 1280px;
+  margin: auto;
+}
+
+/* line 51, ../scss/joby-menu.scss */
+.logo {
+  display: table-cell;
+  vertical-align: middle;
+}
+/* line 54, ../scss/joby-menu.scss */
+.logo img {
+  margin-right: 40px;
+  margin-top: -20px;
+}
+
+/* 
+// =============================================
+// Primary nav styles
+// ============================================= 
+*/
+/* line 65, ../scss/joby-menu.scss */
+.primary-nav {
+  width: 100%;
+  max-width: 1200px;
+  height: 60px;
+  margin: auto;
+  position: relative;
+  display: table-cell;
+  /*border: 1px solid black;*/
+}
+/* line 73, ../scss/joby-menu.scss */
+.primary-nav > .has-children {
+  display: table-cell;
+  vertical-align: middle;
+}
+/* line 77, ../scss/joby-menu.scss */
+.primary-nav .secondary-nav > .has-children {
+  display: inline-block;
+}
+
+/*Tabs styles*/
+/* line 84, ../scss/joby-menu.scss */
+.primary-nav > .products-nav,
+.primary-nav > .kits-nav,
+.primary-nav > .activity-nav,
+.primary-nav > .inspiration-nav {
+  height: 80px;
+  padding: 0 20px;
+}
+/* line 90, ../scss/joby-menu.scss */
+.primary-nav > .products-nav > a,
+.primary-nav > .kits-nav > a,
+.primary-nav > .activity-nav > a,
+.primary-nav > .inspiration-nav > a {
+  color: #DFE2E5;
+  text-transform: uppercase;
+}
+
+/* line 99, ../scss/joby-menu.scss */
+.products-nav > .secondary-nav > .has-children,
+.activity-nav > .secondary-nav > .has-children {
+  width: 16.5%;
+  /* border: 1px solid yellow;*/
+}
+
+/* line 105, ../scss/joby-menu.scss */
+.kits-nav > .secondary-nav > .has-children,
+.inspiration-nav > .secondary-nav > .has-children {
+  /*width: 33.25%;*/
+  width: 16.5%;
+}
+/* line 109, ../scss/joby-menu.scss */
+.kits-nav > .secondary-nav > .has-children:last-of-type,
+.inspiration-nav > .secondary-nav > .has-children:last-of-type {
+  border-right: 1px solid #9FABB3;
+}
+
+/* 
+// =============================================
+// Primary nav actions
+// ============================================= 
+*/
+/* line 119, ../scss/joby-menu.scss */
+.primary-nav > .has-children:hover {
+  cursor: pointer;
+}
+/* line 121, ../scss/joby-menu.scss */
+.primary-nav > .has-children:hover > a {
+  color: white;
+  border-bottom: 2px solid #DC291E;
+}
+/* line 125, ../scss/joby-menu.scss */
+.primary-nav > .has-children:hover .secondary-nav {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+/* 
+// =============================================
+// Secondary and tertiary nav styles
+// ============================================= 
+*/
+/* line 139, ../scss/joby-menu.scss */
+.secondary-nav {
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: visibility 0s linear 0.3s, opacity 0.1s linear;
+  transition: visibility 0s linear 0.3s, opacity 0.1s linear;
+  position: absolute;
+  top: 83px;
+  left: -240px;
+  width: 110%;
+  /* fallback for calc */
+  width: calc(100% + 200px);
+  height: 230px;
+  border-top: 1px solid #DFE2E5;
+  box-sizing: border-box;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#333333+0,000000+100&amp;1+0,0.65+100 */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzMzMzMzMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC42NSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top, #333333 0%, rgba(0, 0, 0, 0.65) 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #333333), color-stop(100%, rgba(0, 0, 0, 0.65)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #333333 0%, rgba(0, 0, 0, 0.65) 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #333333 0%, rgba(0, 0, 0, 0.65) 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #333333 0%, rgba(0, 0, 0, 0.65) 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #333333 0%, rgba(0, 0, 0, 0.65) 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', endColorstr='#a6000000',GradientType=0 );
+  /* IE6-8 */
+}
+/* line 164, ../scss/joby-menu.scss */
+.secondary-nav > .has-children {
+  position: relative;
+  border-left: 1px solid #9FABB3;
+  height: 100%;
+  /*border: 1px solid red;*/
+  -webkit-transition: all 100ms cubic-bezier(0.42, 0, 1, 1);
+  transition: all 100ms cubic-bezier(0.42, 0, 1, 1);
+  /* ease-in */
+}
+/* line 169, ../scss/joby-menu.scss */
+.secondary-nav > .has-children:first-of-type {
+  border-left: 1px solid transparent;
+}
+/* line 174, ../scss/joby-menu.scss */
+.secondary-nav > .has-children > a {
+  position: absolute;
+  top: 40%;
+  color: #DFE2E5;
+  font-weight: 700;
+  margin-left: 20px;
+  -webkit-transition: top 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: top 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  /* easeOutBack */
+}
+/* line 182, ../scss/joby-menu.scss */
+.secondary-nav > .has-children > a > span {
+  color: #DFE2E5;
+}
+/* line 186, ../scss/joby-menu.scss */
+.secondary-nav > .has-children > svg {
+  width: 75px;
+  margin: 75px auto 0;
+  display: block;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: visibility 0s linear 300ms, opacity 300ms linear;
+  transition: visibility 0s linear 300ms, opacity 300ms linear;
+}
+/* line 194, ../scss/joby-menu.scss */
+.secondary-nav > .has-children > svg .activity-icon {
+  fill: #DFE2E5;
+}
+/* line 198, ../scss/joby-menu.scss */
+.secondary-nav > .has-children > .tertiary-nav {
+  padding: 10px 20px 0;
+  position: absolute;
+  visibility: hidden;
+  top: 70px;
+  opacity: 0;
+  -webkit-transition: visibility 0s linear 100ms, opacity 300ms linear;
+  transition: visibility 0s linear 100ms, opacity 300ms linear;
+}
+/* line 206, ../scss/joby-menu.scss */
+.secondary-nav > .has-children > .tertiary-nav > li {
+  /*border: 1px solid green;*/
+  padding: 4px 0;
+  font-size: 90%;
+}
+/* line 210, ../scss/joby-menu.scss */
+.secondary-nav > .has-children > .tertiary-nav > li > a {
+  color: #B9C5CD;
+  -webkit-transition: all 100ms cubic-bezier(0.42, 0, 1, 1);
+  transition: all 100ms cubic-bezier(0.42, 0, 1, 1);
+  /* ease-in */
+}
+
+/* 
+// =============================================
+// Secondary and tertiary nav actions
+// ============================================= 
+*/
+/* line 226, ../scss/joby-menu.scss */
+.secondary-nav > .has-children:hover {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00488c+0,2295d9+100&amp;1+0,0.65+100 */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwNDg4YyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMyMjk1ZDkiIHN0b3Atb3BhY2l0eT0iMC42NSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top, #dc291e 0%, rgba(220, 41, 30, 0.65) 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #dc291e), color-stop(100%, rgba(220, 41, 30, 0.65)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #dc291e 0%, rgba(220, 41, 30, 0.65) 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #dc291e 0%, rgba(220, 41, 30, 0.65) 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #dc291e 0%, rgba(220, 41, 30, 0.65) 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #dc291e 0%, rgba(220, 41, 30, 0.65) 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00488c', endColorstr='#a62295d9',GradientType=0 );
+  /* IE6-8 */
+  border-left: 1px solid #DC291E;
+  -webkit-transition: all 300ms cubic-bezier(0.42, 0, 1, 1);
+  transition: all 300ms cubic-bezier(0.42, 0, 1, 1);
+  /* ease-in */
+}
+/* line 241, ../scss/joby-menu.scss */
+.secondary-nav > .has-children:hover a {
+  top: 20px;
+  -webkit-transition: top 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: top 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  /* easeOutBack */
+  color: #FFFFFF;
+}
+/* line 246, ../scss/joby-menu.scss */
+.secondary-nav > .has-children:hover a span {
+  color: #FFFFFF;
+}
+/* line 250, ../scss/joby-menu.scss */
+.secondary-nav > .has-children:hover > svg {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+/* line 256, ../scss/joby-menu.scss */
+.secondary-nav > .has-children:hover > svg:hover .activity-icon {
+  fill: #FFFFFF;
+}
+/* line 261, ../scss/joby-menu.scss */
+.secondary-nav > .has-children:hover .tertiary-nav {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+  /*      -webkit-transition: visibility 1000ms ease-in;
+        transition: visibility 1000ms ease-in;*/
+}
+/* line 268, ../scss/joby-menu.scss */
+.secondary-nav > .has-children:hover .tertiary-nav > li:hover > a {
+  color: #FFFFFF;
+  -webkit-transition: all 100ms cubic-bezier(0.42, 0, 1, 1);
+  /* ease-in */
+  transition: all 100ms cubic-bezier(0.42, 0, 1, 1);
+  /* ease-in */
+}
+
+/* 
+// =============================================
+// Products nav specific styles
+// ============================================= 
+*/
+/* line 283, ../scss/joby-menu.scss */
+.products-nav > .secondary-nav {
+  height: 330px;
+}
+/* line 285, ../scss/joby-menu.scss */
+.products-nav > .secondary-nav .tertiary-nav {
+  text-align: left;
+  padding: 0 0 0 20px;
+}
+/* line 290, ../scss/joby-menu.scss */
+.products-nav > .secondary-nav > .has-children:hover > .tertiary-nav > li:hover > a {
+  color: #FFFFFF;
+}
+
+/* 
+// =============================================
+// Activity nav specific styles
+// ============================================= 
+*/
+/* line 304, ../scss/joby-menu.scss */
+.activity-nav > .secondary-nav > .has-children > a {
+  position: absolute;
+  /*centering activity nav*/
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  /*centering 2nd nav title*/
+  text-align: center;
+  margin-left: 0;
+  width: 100%;
+}
+/* line 315, ../scss/joby-menu.scss */
+.activity-nav > .secondary-nav > .has-children:hover > a {
+  top: 30px;
+}

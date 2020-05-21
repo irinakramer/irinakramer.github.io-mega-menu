@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JOBY mobile menu</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="js/mobile.js"></script>
+</head>
+<body class="mbody" id="mbody">
+<!-- <img src="img/logo.png" class="logo" alt=""> -->
+<div class="m-header">
+  <img src="img/logo_tab.png" class="m-logo" alt="">
+</div>
+<!-- <div class="m-wrapper">
+
+</div> -->
+
+  <ul id="primary-nav-mobile" class="m-primary-nav mobile"> 
+
+  <li class="products-nav has-children" id="m-products"><a href="#">Products</a>
+
+    <ul class="m-secondary-nav products-nav">
+      <li class="menu-back"><a href="#">Back</a></li>
+      <li class="nav-name">Products</li>
+      <li class="has-children"> <a href="#">GorillaPod Tripods</a>
+        <ul class="m-tertiary-nav">
+          <li class="menu-back"><a href="#">Products</a></li>
+          <li class="nav-name">GorillaPod Tripods</li>
+          <li><a href="index2.html">Original</a></li>
+          <li><a href="#">Magnetic</a></li>
+          <li><a href="#">Micro</a></li>
+          <li><a href="#">Hybrid</a></li>
+          <li><a href="#">Focus</a></li>
+          <li><a href="#">SLR-Zoom</a></li>
+          <li class="all"><a href="#">All GorillaPod Tripods</a></li>
+        </ul>
+      </li>
+      <li class="has-children"> <a href="#">GripTight for Mobile</a>
+        <ul class="m-tertiary-nav">
+          <li class="menu-back"><a href="#">Products</a></li>
+          <li class="nav-name">GripTights for Mobile</li>
+          <li><a href="#">Mount (only)</a></li>
+          <li><a href="#">Micro</a></li>
+          <li><a href="#">GPOD Mini</a></li>
+          <li><a href="#">GorillaPod</a></li>
+          <li><a href="#">Hybrid</a></li>
+          <li><a href="#">Magnetic</a></li>
+          <li><a href="#">Video</a></li>
+          <li><a href="#">GorillaCam App</a></li>
+          <li class="all"><a href="#">All GripTights for Mobile</a></li>
+        </ul>
+      </li>
+      <li class="has-children"> <a href="#">Action Video Cam</a>
+        <ul class="m-tertiary-nav">
+          <li class="menu-back"><a href="#">Products</a></li>
+          <li class="nav-name">Action Video</li>         
+          <li><a href="#">GorillaPod</a></li>
+          <li><a href="#">Jib Kit</a></li>
+          <li><a href="#">Flash Clamp &amp; Arm</a></li>
+          <li><a href="#">Suction Cup &amp; Arm</a></li>
+          <li><a href="#">Hand Grip</a></li>
+          <li><a href="#">Battery Mount</a></li>
+          <li><a href="#">Bike Mount</a></li>
+          <li><a href="#">Accessories</a></li>
+          <li><a href="#">Action Kits</a></li>
+          <li class="all"><a href="#">All Action Video</a></li>
+        </ul>
+      </li>
+      <li class="has-children"> <a href="#">Mounts &amp; Baseplates</a>
+        <ul class="m-tertiary-nav">
+          <li class="menu-back"><a href="#">Products</a></li>
+          <li class="nav-name">Mounts &amp; Baseplates</li>          
+          <li><a href="#">Ballhead</a></li>
+          <li><a href="#">Ultraplates</a></li>
+          <li><a href="#">Clamp &amp; Arm</a></li>
+          <li><a href="#">GoPro Tripod Mount</a></li>
+          <li><a href="#">GripTight</a></li>
+          <li><a href="#">Autovent Clip</a></li>
+          <li class="all"><a href="#">All Mounts &amp; Baseplates</a></li>
+        </ul>
+      </li>
+      <li class="has-children"> <a href="#">Straps for Photography</a>
+        <ul class="m-tertiary-nav">
+          <li class="menu-back"><a href="#">Products</a></li>
+          <li class="nav-name">Straps for Photography</li>          
+          <li><a href="#">Pro Sling</a></li>
+          <li><a href="#">UltraFit Sling</a></li>
+          <li><a href="#">Hand Strap with Ultraplate</a></li>
+          <li><a href="#">DSLR Wrist Strap</a></li>
+          <li><a href="#">Convertable Neck Strap</a></li>
+          <li><a href="#">Accessories</a></li>
+          <li class="all"><a href="#">All Straps for Photography</a></li>
+        </ul>
+      </li>
+      <li class="has-children"> <a href="#">Parts &amp; Accessories</a>
+        <ul class="m-tertiary-nav">
+          <li class="menu-back"><a href="#">Products</a></li>
+          <li class="nav-name">Parts &amp; Accessories</li>          
+          <li><a href="#">Action Clamp</a></li>
+          <li><a href="#">Suction Cup</a></li>
+          <li><a href="#">GorillaPod Arm</a></li>
+          <li><a href="#">Locking Arm</a></li>
+          <li><a href="#">Convertable Neck Strap</a></li>
+          <li><a href="#">Accessories</a></li>
+          <li class="all"><a href="#">All Parts &amp; Accessories</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+
+<li class="activity-nav has-children" id="m-activity"> <a href="#">Activity</a>
+    <ul class="m-secondary-nav">
+      <li class="menu-back"><a href="#">Back</a></li>
+      <li class="nav-name">Activity</li>
+      <li><a href="#">Hike &amp; Camp</a></li>
+      <li><a href="#">Cycle &amp; Biking</a></li>
+      <li><a href="#">Travel &amp; Commute</a></li>
+      <li><a href="#">Auto &amp; Motorsport</a></li>
+      <li><a href="#">Water &amp; Snow</a></li>
+      <li><a href="#">Extreme Sport</a></li>
+    </ul>
+  </li>
+
+
+  <li class="kits-nav has-children" id="m-gear-kits"> <a href="#">Gear Kits</a>
+    <ul class="m-secondary-nav">
+      <li class="menu-back"><a href="#">Back</a></li>
+      <li class="nav-name">Gear Kits</li>
+      <li><a href="#">Action Kits</a></li>
+      <li><a href="#">Mobile Kits</a></li>
+      <li><a href="#">Photo Kits</a></li>
+    </ul>
+  </li>
+
+  <li class="inspiration-nav has-children" id="m-inspiration"> <a href="#">Inspiration</a>
+    <ul class="m-secondary-nav">
+      <li class="menu-back"><a href="#">Back</a></li>
+      <li class="nav-name">Inspiration</li>
+      <li><a href="#">The JOBY Blog</a></li>
+      <li> <a href="#">JOBY Community</a></li>
+      <li> <a href="#">Assignments &amp; Activities</a></li>
+      <li> <a href="#">Innovation</a></li>
+    </ul>
+  </li>
+
+</ul>
+
+<div class="m-bars skip-nav" onclick="myFunction(this)"> 
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+</div>
+  
+</body>
+</html>
