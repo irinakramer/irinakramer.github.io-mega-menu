@@ -1,113 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <title>JOBY menu</title>
+  <title>Responsive mega menu</title>
+  <meta name="description" content="Lightweight CSS-only mega-menu with SVG, gradients, animations, transitions." />
+
+  <!-- Social sharing -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@irinakramer" />
+  <meta name="twitter:title" content="Responsive Mega Menu" />
+  <meta name="twitter:description"
+    content="Lightweight CSS-only mega-menu with SVG, gradients, animations, transitions." />
+  <meta name="twitter:image" content="https://irinakramer.github.io/mega-menu/img/mega-menu_screenshot.png" />
+  <meta property="og:title" content="Responsive Mega Menu" />
+  <meta property="og:description"
+    content="Lightweight CSS-only mega-menu with SVG, gradients, animations, transitions." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://irinakramer.github.io/mega-menu/" />
+  <meta property="og:image" content="https://irinakramer.github.io/mega-menu/img/mega-menu_screenshot.png" />
 
   <link rel="stylesheet" href="css/joby-menu.css">
   <link rel="stylesheet" href="css/reset.css">
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="js/joby-menu.js"></script> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="js/joby-menu.js"></script>
 
 </head>
+
 <body>
 
   <header>
-  <!-- NAVIGATION -->
-  <nav class="nav">
-    <!-- <a class="logo" href="index.html"><img src="img/joby-headerlogo_2x.png" width="200" alt="JOBY logo"></a> -->
-    <a class="logo" href="index.html"><img src="img/logo_tab.png" width="200" alt="JOBY logo"></a>
+    <!-- NAVIGATION -->
+    <nav class="nav">
+      <!-- <a class="logo" href="index.html"><img src="img/joby-headerlogo_2x.png" width="200" alt="JOBY logo"></a> -->
+      <a class="logo" href="index.html"><img src="img/logo_tab.png" width="200" alt="JOBY logo"></a>
 
-    <ul id="primary-nav" class="primary-nav is-fixed"> 
+      <ul id="primary-nav" class="primary-nav is-fixed">
 
-      <li class="products-nav has-children"><a href="#">Products</a>
+        <li class="products-nav has-children"><a href="#">Products</a>
 
-        <ul class="secondary-nav products-nav is-hidden">
-          <li class="has-children"> <a href="#">GorillaPod<br><span> Tripods</span></a>
-            <ul class="tertiary-nav is-hidden">
-              <li><a href="#">Original</a></li>
-              <li><a href="#">Magnetic</a></li>
-              <li><a href="#">Micro</a></li>
-              <li><a href="#">Hybrid</a></li>
-              <li><a href="#">Focus</a></li>
-              <li><a href="#">SLR-Zoom</a></li>
-            </ul>
-          </li><li class="has-children"> <a href="#">GripTight<br><span> for Mobile</span></a>
-            <ul class="tertiary-nav is-hidden">
-              <li><a href="#">Mount</a></li>
-              <li><a href="#">Micro</a></li>
-              <li><a href="#">GPOD Mini</a></li>
-              <li><a href="#">GorillaPod</a></li>
-              <li><a href="#">Hybrid</a></li>
-              <li><a href="#">Magnetic</a></li>
-              <li><a href="#">Video</a></li>
-              <li><a href="#">GorillaCam App</a></li>
-            </ul>
-          </li><li class="has-children"> <a href="#">Action<br><span> Video Cam</span></a>
-            <ul class="tertiary-nav is-hidden">
-              <li><a href="#">GorillaPod</a></li>
-              <li><a href="#">Jib Kit</a></li>
-              <li><a href="#">Flash Clamp &amp; Arm</a></li>
-              <li><a href="#">Suction Cup &amp; Arm</a></li>
-              <li><a href="#">Hand Grip</a></li>
-              <li><a href="#">Battery Mount</a></li>
-              <li><a href="#">Bike Mount</a></li>
-              <li><a href="#">Accessories</a></li>
-              <li><a href="#">Action Kits</a></li>
-            </ul>
-          </li><li class="has-children"> <a href="#">Mounts<br><span> &amp; Baseplates</span></a>
-            <ul class="tertiary-nav is-hidden">
-              <li><a href="#">Ballhead</a></li>
-              <li><a href="#">Ultraplates</a></li>
-              <li><a href="#">Clamp &amp; Arm</a></li>
-              <li><a href="#">GoPro Tripod Mount</a></li>
-              <li><a href="#">GripTight</a></li>
-              <li><a href="#">Autovent Clip</a></li>
-            </ul>
-          </li><li class="has-children"> <a href="#">Straps<br><span>for Photography</span></a>
-            <ul class="tertiary-nav is-hidden">
-              <li><a href="#">Pro Sling</a></li>
-              <li><a href="#">UltraFit Sling</a></li>
-              <li><a href="#">Hand Strap with Ultraplate</a></li>
-              <li><a href="#">DSLR Wrist Strap</a></li>
-              <li><a href="#">Convertable Neck Strap</a></li>
-              <li><a href="#">Accessories</a></li>
-            </ul>
-          </li><li class="has-children"> <a href="#">Parts<br><span>&amp; Accessories</span></a>
-            <ul class="tertiary-nav is-hidden">
-              <li><a href="#">Action Clamp</a></li>
-              <li><a href="#">Suction Cup</a></li>
-              <li><a href="#">GorillaPod Arm</a></li>
-              <li><a href="#">Locking Arm</a></li>
-              <li><a href="#">Convertable Neck Strap</a></li>
-              <li><a href="#">Accessories</a></li>
-            </ul>
-          </li>
-
-
-        </ul>
-      </li>
-
-
-  
+          <ul class="secondary-nav products-nav is-hidden">
+            <li class="has-children"> <a href="#">GorillaPod<br><span> Tripods</span></a>
+              <ul class="tertiary-nav is-hidden">
+                <li><a href="#">Original</a></li>
+                <li><a href="#">Magnetic</a></li>
+                <li><a href="#">Micro</a></li>
+                <li><a href="#">Hybrid</a></li>
+                <li><a href="#">Focus</a></li>
+                <li><a href="#">SLR-Zoom</a></li>
+              </ul>
+            </li>
+            <li class="has-children"> <a href="#">GripTight<br><span> for Mobile</span></a>
+              <ul class="tertiary-nav is-hidden">
+                <li><a href="#">Mount</a></li>
+                <li><a href="#">Micro</a></li>
+                <li><a href="#">GPOD Mini</a></li>
+                <li><a href="#">GorillaPod</a></li>
+                <li><a href="#">Hybrid</a></li>
+                <li><a href="#">Magnetic</a></li>
+                <li><a href="#">Video</a></li>
+                <li><a href="#">GorillaCam App</a></li>
+              </ul>
+            </li>
+            <li class="has-children"> <a href="#">Action<br><span> Video Cam</span></a>
+              <ul class="tertiary-nav is-hidden">
+                <li><a href="#">GorillaPod</a></li>
+                <li><a href="#">Jib Kit</a></li>
+                <li><a href="#">Flash Clamp &amp; Arm</a></li>
+                <li><a href="#">Suction Cup &amp; Arm</a></li>
+                <li><a href="#">Hand Grip</a></li>
+                <li><a href="#">Battery Mount</a></li>
+                <li><a href="#">Bike Mount</a></li>
+                <li><a href="#">Accessories</a></li>
+                <li><a href="#">Action Kits</a></li>
+              </ul>
+            </li>
+            <li class="has-children"> <a href="#">Mounts<br><span> &amp; Baseplates</span></a>
+              <ul class="tertiary-nav is-hidden">
+                <li><a href="#">Ballhead</a></li>
+                <li><a href="#">Ultraplates</a></li>
+                <li><a href="#">Clamp &amp; Arm</a></li>
+                <li><a href="#">GoPro Tripod Mount</a></li>
+                <li><a href="#">GripTight</a></li>
+                <li><a href="#">Autovent Clip</a></li>
+              </ul>
+            </li>
+            <li class="has-children"> <a href="#">Straps<br><span>for Photography</span></a>
+              <ul class="tertiary-nav is-hidden">
+                <li><a href="#">Pro Sling</a></li>
+                <li><a href="#">UltraFit Sling</a></li>
+                <li><a href="#">Hand Strap with Ultraplate</a></li>
+                <li><a href="#">DSLR Wrist Strap</a></li>
+                <li><a href="#">Convertable Neck Strap</a></li>
+                <li><a href="#">Accessories</a></li>
+              </ul>
+            </li>
+            <li class="has-children"> <a href="#">Parts<br><span>&amp; Accessories</span></a>
+              <ul class="tertiary-nav is-hidden">
+                <li><a href="#">Action Clamp</a></li>
+                <li><a href="#">Suction Cup</a></li>
+                <li><a href="#">GorillaPod Arm</a></li>
+                <li><a href="#">Locking Arm</a></li>
+                <li><a href="#">Convertable Neck Strap</a></li>
+                <li><a href="#">Accessories</a></li>
+              </ul>
+            </li>
 
 
-  <li class="activity-nav has-children"> <a href="#">Activity</a>
-        <ul class="secondary-nav is-hidden">
+          </ul>
+        </li>
 
-          <li class="has-children"> <a href="#">Hike &amp; Camp</a>
-            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" xml:space="preserve">
-              <g>
-                <path class="activity-icon" d="M68.5,30.2c0,0,0,0.1,0,0.1C68.5,30.3,68.5,30.2,68.5,30.2z"/>
-                <path class="activity-icon" d="M68.4,30.8c0,0.1,0,0.1,0,0.2C68.3,31,68.4,30.9,68.4,30.8z"/>
-                <path class="activity-icon" d="M68.4,30.5c0,0.1,0,0.1,0,0.2C68.4,30.6,68.4,30.6,68.4,30.5z"/>
-                <path class="activity-icon" d="M68.3,31.2c0,0,0,0.1,0,0.1C68.3,31.3,68.3,31.3,68.3,31.2z"/>
-                <path class="activity-icon" d="M68.2,31.7C68.2,31.7,68.2,31.7,68.2,31.7C68.2,31.7,68.2,31.7,68.2,31.7z"/>
-                <path class="activity-icon" d="M52.1,46l-16.5,0.6c-0.7,0-1.2,0.5-1.4,1.1l-2.3,7.8c-0.1,0.5,0,1,0.2,1.4c0.3,0.4,0.7,0.6,1.2,0.6h16.3
+
+
+
+
+        <li class="activity-nav has-children"> <a href="#">Activity</a>
+          <ul class="secondary-nav is-hidden">
+
+            <li class="has-children"> <a href="#">Hike &amp; Camp</a>
+              <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"
+                xml:space="preserve">
+                <g>
+                  <path class="activity-icon" d="M68.5,30.2c0,0,0,0.1,0,0.1C68.5,30.3,68.5,30.2,68.5,30.2z" />
+                  <path class="activity-icon" d="M68.4,30.8c0,0.1,0,0.1,0,0.2C68.3,31,68.4,30.9,68.4,30.8z" />
+                  <path class="activity-icon" d="M68.4,30.5c0,0.1,0,0.1,0,0.2C68.4,30.6,68.4,30.6,68.4,30.5z" />
+                  <path class="activity-icon" d="M68.3,31.2c0,0,0,0.1,0,0.1C68.3,31.3,68.3,31.3,68.3,31.2z" />
+                  <path class="activity-icon"
+                    d="M68.2,31.7C68.2,31.7,68.2,31.7,68.2,31.7C68.2,31.7,68.2,31.7,68.2,31.7z" />
+                  <path class="activity-icon" d="M52.1,46l-16.5,0.6c-0.7,0-1.2,0.5-1.4,1.1l-2.3,7.8c-0.1,0.5,0,1,0.2,1.4c0.3,0.4,0.7,0.6,1.2,0.6h16.3
                   c0.7,0,1.3-0.4,1.5-1.1l2.5-8.4c0.1-0.5,0-1-0.3-1.4C53.1,46.2,52.6,46,52.1,46z M48.5,54.4H38.3h-2.8l1.4-4.8l13.2-0.5L48.5,54.4z
-                  "/>
-                <path class="activity-icon" d="M98.7,64.7c-0.4-0.1-0.9-0.1-1.3-0.2l0.6-1.6c0.3-0.8-0.1-1.7-0.9-2c-0.8-0.3-1.7,0.1-2,0.9l-0.6,1.8
+                  " />
+                  <path class="activity-icon"
+                    d="M98.7,64.7c-0.4-0.1-0.9-0.1-1.3-0.2l0.6-1.6c0.3-0.8-0.1-1.7-0.9-2c-0.8-0.3-1.7,0.1-2,0.9l-0.6,1.8
                   C88.7,61.8,84,57.9,80.3,52c-1.6-2.5-2.8-5-3.5-7c-3-9.3-4.7-17.2-4.7-17.4c0,0,0-0.1,0-0.1c0,0,0,0,0,0c0,0,0-0.1-0.1-0.1
                   c0,0,0,0,0,0c0,0,0-0.1-0.1-0.1c0,0,0,0,0,0c0,0-0.1-0.1-0.1-0.1c0,0,0,0,0,0c0,0-0.1-0.1-0.1-0.1c0,0,0,0,0,0c0,0,0,0,0,0
                   c0,0-0.1-0.1-0.1-0.1c0,0,0,0,0,0c0,0-0.1-0.1-0.1-0.1c0,0,0,0,0,0c0,0-0.1,0-0.1-0.1c0,0,0,0,0,0c0,0-0.1,0-0.2-0.1c0,0,0,0,0,0
@@ -123,12 +148,14 @@
                   c0,0.1,0,0.1,0,0.2c0,0.1,0,0.1,0,0.2c0,0.1,0,0.1,0,0.2c0,0,0,0.1,0,0.1c0,0.1,0,0.2-0.1,0.3c0,0,0,0.1,0,0.1
                   c-0.1,0.3-0.1,0.5-0.2,0.8c-0.8,3.8-2.2,9.5-4.2,16c-3.4,10.3-7.2,19.2-8.5,22C55.3,70.5,19.4,70.5,19.4,70.5z M78.9,70.4
                   l-4.5-11.1c-0.2-0.6-0.8-1-1.5-1c-0.6,0-1.2,0.4-1.4,1.1l-3.7,11.2H62h-3.2c3.1-6.6,5.6-13.6,7.6-20c1.6-4.8,3.1-10,4.3-15.1
-                  c0.2,0.9,0.8,3.1,1.4,5.4c0.6,2,1.1,3.9,1.6,5c2.7,8.5,6.5,18.3,11.2,24.6C84.9,70.4,78.9,70.4,78.9,70.4z"/>
-              </g>
+                  c0.2,0.9,0.8,3.1,1.4,5.4c0.6,2,1.1,3.9,1.6,5c2.7,8.5,6.5,18.3,11.2,24.6C84.9,70.4,78.9,70.4,78.9,70.4z" />
+                </g>
               </svg>
-          </li><li class="has-children"> <a href="#">Cycle &amp; Biking</a>
-            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" xml:space="preserve">
-              <path class="activity-icon" d="M79.4,39.9c-2.8,0-5.4,0.5-7.8,1.5l-4.4-8l5.4-10H77c2.2,0,4,1.8,4,4c0,1.2,1,2.2,2.2,2.2c1.2,0,2.2-1,2.2-2.2
+            </li>
+            <li class="has-children"> <a href="#">Cycle &amp; Biking</a>
+              <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"
+                xml:space="preserve">
+                <path class="activity-icon" d="M79.4,39.9c-2.8,0-5.4,0.5-7.8,1.5l-4.4-8l5.4-10H77c2.2,0,4,1.8,4,4c0,1.2,1,2.2,2.2,2.2c1.2,0,2.2-1,2.2-2.2
                 c0-4.7-3.8-8.5-8.5-8.5h-5.6c-0.1,0-0.2,0-0.2,0c0,0-0.1,0-0.1,0c0,0-0.1,0-0.1,0c0,0-0.1,0-0.1,0c0,0,0,0-0.1,0c0,0-0.1,0-0.1,0
                 c0,0,0,0-0.1,0c0,0-0.1,0-0.1,0.1c0,0-0.1,0-0.1,0c0,0-0.1,0-0.1,0.1c0,0-0.1,0-0.1,0.1c0,0,0,0-0.1,0c0,0-0.1,0.1-0.1,0.1
                 c0,0,0,0-0.1,0c0,0-0.1,0.1-0.1,0.1c0,0,0,0,0,0c0,0-0.1,0.1-0.1,0.1c0,0,0,0.1-0.1,0.1c0,0,0,0.1-0.1,0.1c0,0.1-0.1,0.1-0.1,0.2
@@ -139,11 +166,13 @@
                 C35.5,70.6,28.8,76.6,20.6,76.6z M36.6,58.3H24.3l5.8-10.8C33.6,50,36,53.9,36.6,58.3z M48.7,58.3h-7.6c-0.7-6.1-4-11.4-8.8-14.7
                 l4.3-7.9H61L48.7,58.3z M79.4,76.6c-8.9,0-16.2-7.2-16.2-16.2c0-5.3,2.6-10.1,6.6-13l7.6,14.1c0.4,0.7,1.2,1.2,2,1.2
                 c0.4,0,0.7-0.1,1.1-0.3c1.1-0.6,1.5-1.9,0.9-3l-7.6-14.1c1.8-0.7,3.7-1,5.7-1c8.9,0,16.2,7.2,16.2,16.2
-                C95.6,69.4,88.3,76.6,79.4,76.6z"/>
-            </svg>
-          </li><li class="has-children"> 
-            <a href="#">Travel &amp; Commute</a>
-              <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" xml:space="preserve">
+                C95.6,69.4,88.3,76.6,79.4,76.6z" />
+              </svg>
+            </li>
+            <li class="has-children">
+              <a href="#">Travel &amp; Commute</a>
+              <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"
+                xml:space="preserve">
                 <path class="activity-icon" d="M87.5,100c-0.3,0-0.6-0.1-0.8-0.3L75.7,90H24.3l-10.9,9.7c-0.5,0.5-1.3,0.4-1.8-0.1c-0.5-0.5-0.4-1.3,0.1-1.8l10.9-9.7v-2.9
                   h-0.4c-3.1,0-5.5-2.5-5.5-5.5V52.5c0,0,0,0,0-0.1V17.3C16.7,7.8,24.4,0,34,0h32c9.6,0,17.3,7.8,17.3,17.3v35.1c0,0,0,0,0,0.1v27.2
                   c0,3.1-2.5,5.5-5.5,5.5h-0.4v2.9l10.9,9.7c0.5,0.5,0.6,1.2,0.1,1.8C88.1,99.9,87.8,100,87.5,100z M25.1,87.5h49.9v-2.2H25.1V87.5z
@@ -155,13 +184,15 @@
                   C29.1,68.5,27.8,67.2,26.3,67.2z M77.7,47.2H22.3c-0.7,0-1.2-0.6-1.2-1.2V19.1c0-0.7,0.6-1.2,1.2-1.2h55.5c0.7,0,1.2,0.6,1.2,1.2V46
                   C79,46.7,78.4,47.2,77.7,47.2z M51.2,44.8h25.2V20.4H51.2C51.2,20.4,51.2,44.8,51.2,44.8z M23.5,44.8h25.2V20.4H23.5V44.8z M50,15.5
                   c-2.6,0-4.7-2.1-4.7-4.7s2.1-4.7,4.7-4.7s4.7,2.1,4.7,4.7S52.6,15.5,50,15.5z M50,8.6c-1.2,0-2.2,1-2.2,2.2s1,2.2,2.2,2.2
-                  s2.2-1,2.2-2.2S51.2,8.6,50,8.6z"/>
-                </svg>
+                  s2.2-1,2.2-2.2S51.2,8.6,50,8.6z" />
+              </svg>
 
-          </li><li class="has-children"> <a href="#">Auto &amp; Motorsport</a>
+            </li>
+            <li class="has-children"> <a href="#">Auto &amp; Motorsport</a>
 
-          <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" xml:space="preserve">
-            <path class="activity-icon" d="M99.2,38.2c-0.5-0.4-1.1-0.8-1.7-1.2c-4.9-3.4-11.5-7.9-18.4-13.8c-2.4-2-4.5-4.2-6.4-6.3c-5.5-6.5-12.6-10.7-21-12.6
+              <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"
+                xml:space="preserve">
+                <path class="activity-icon" d="M99.2,38.2c-0.5-0.4-1.1-0.8-1.7-1.2c-4.9-3.4-11.5-7.9-18.4-13.8c-2.4-2-4.5-4.2-6.4-6.3c-5.5-6.5-12.6-10.7-21-12.6
               C43.4,2.5,34.2,4,24.4,8.7c-7.9,3.8-14.6,9-18.8,12.7C2.8,24,1,27.6,0.8,31.5L0,50.3c0,0.8,0.4,1.5,1.1,1.8
               c35.5,16.3,64.8,43.5,65.1,43.8c0.4,0.3,0.8,0.5,1.3,0.5c0.1,0,4.7-0.8,4.7-0.8c6.2-1.1,10.7-6.4,10.7-12.7v-9.5
               c0-0.7-0.4-1.4-1.1-1.7c-0.7-0.3-1.4-0.2-2,0.2l-8.2,6.5L51.3,64.5c-1.1-0.8-1.7-2.1-1.4-3.5l1.1-5.7l25.7-2.8
@@ -173,32 +204,36 @@
               L68,92.5c-4.6-4.2-31.7-28.1-64.2-43.3l0.8-17.5c0-0.9,0.2-1.8,0.5-2.7L36,45.6c0.3,0.2,0.6,0.2,0.9,0.2c0.7,0,1.3-0.4,1.7-1
               c0.5-0.9,0.2-2.1-0.8-2.6L6.8,25.6c0.4-0.5,0.8-1,1.3-1.4c1.1-0.9,2.1-1.8,3.2-2.7l22.2,11.2c0.3,0.1,0.6,0.2,0.8,0.2
               c0.7,0,1.4-0.4,1.7-1c0.5-0.9,0.1-2.1-0.8-2.5L14.7,19C32.4,6,45.7,6.9,50.9,8.1c7.6,1.7,14,5.5,18.9,11.3c2,2.3,4.3,4.6,6.8,6.7
-              c5.4,4.7,10.9,8.6,15.3,11.7C88.8,37.3,85,36.3,80.8,34.7z"/>
-            </svg>
+              c5.4,4.7,10.9,8.6,15.3,11.7C88.8,37.3,85,36.3,80.8,34.7z" />
+              </svg>
 
-        </li><li class="has-children"> <a href="#">Water &amp; Snow</a>
-          <!-- <img src="img/kayak.svg" alt=""> -->
-          <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" xml:space="preserve">
-          <g>
-            <path class="activity-icon" d="M59.8,0.8C59.6,0.3,59.1,0,58.5,0c-0.6,0-1.1,0.3-1.3,0.8C57,1.1,46.9,23.2,46.9,50S57,98.9,57.2,99.2
+            </li>
+            <li class="has-children"> <a href="#">Water &amp; Snow</a>
+              <!-- <img src="img/kayak.svg" alt=""> -->
+              <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"
+                xml:space="preserve">
+                <g>
+                  <path class="activity-icon" d="M59.8,0.8C59.6,0.3,59.1,0,58.5,0c-0.6,0-1.1,0.3-1.3,0.8C57,1.1,46.9,23.2,46.9,50S57,98.9,57.2,99.2
               c0.2,0.5,0.8,0.8,1.3,0.8s1.1-0.3,1.3-0.8c0.1-0.2,10.3-22.3,10.3-49.2S59.9,1.1,59.8,0.8z M54.1,52.6c0-2.7,0.4-8.9,4.4-8.9
               s4.4,6.2,4.4,8.9c0,0.8,0,1.6-0.1,2.4h-8.6C54.1,54.2,54.1,53.4,54.1,52.6z M62.3,58.4c-0.9,4-2.5,6.3-3.8,6.3
               c-0.9,0-2-1.2-2.8-3.1c-0.4-1-0.8-2.1-1-3.2H62.3z M59.9,67.4c3.8-1.4,5.9-8.3,5.9-14.7c0-8.7-3.4-11.1-5.9-11.7V9.2
               c3,8.5,7.2,23.6,7.2,40.8c0,17.1-4.3,32.3-7.2,40.8V67.4z M57,9.2V41c-2.5,0.6-5.9,3-5.9,11.7c0,6.5,2,13.3,5.9,14.7v23.4
-              c-3-8.5-7.2-23.6-7.2-40.8C49.8,32.9,54,17.7,57,9.2z"/>
-            <path class="activity-icon" d="M44.7,12.1c0.1-3.5-0.5-6-1.8-7.3c-0.8-0.9-2-1.3-3.3-1.3c-0.8,0-1.8,0.2-2.8,0.6c-4.5,1.6-7,4.6-6.9,8.1
+              c-3-8.5-7.2-23.6-7.2-40.8C49.8,32.9,54,17.7,57,9.2z" />
+                  <path class="activity-icon" d="M44.7,12.1c0.1-3.5-0.5-6-1.8-7.3c-0.8-0.9-2-1.3-3.3-1.3c-0.8,0-1.8,0.2-2.8,0.6c-4.5,1.6-7,4.6-6.9,8.1
               c0.1,3,2,12,6,13.8v48.3C32,76,30,84.9,29.9,87.9c-0.1,3.5,0.5,6,1.8,7.3c0.8,0.9,2,1.3,3.3,1.3c0.8,0,1.8-0.2,2.8-0.6
               c4.5-1.6,7-4.6,6.9-8.1c-0.1-2.9-2-11.9-5.9-13.8V25.8C42.7,24,44.6,15.1,44.7,12.1z M32.8,12c-0.1-3.1,3.5-4.7,5-5.3
               c0.7-0.3,1.3-0.4,1.8-0.4c0.7,0,1,0.2,1.2,0.4c0.4,0.4,1.1,1.7,1,5.2c-0.1,1.6-0.6,4.6-1.7,7.3c-1.2,3-2.3,4-2.8,4
               c-0.5,0-1.6-1.1-2.8-4C33.4,16.5,32.9,13.5,32.8,12z M41.8,88c0.1,3.1-3.5,4.7-5,5.3c-0.7,0.3-1.3,0.4-1.8,0.4
               c-0.7,0-1-0.2-1.2-0.4c-0.4-0.4-1.1-1.7-1-5.2c0.1-1.6,0.6-4.6,1.7-7.3c1.2-3,2.3-4,2.8-4c0.5,0,1.6,1.1,2.8,4
-              C41.2,83.5,41.8,86.5,41.8,88z"/>
-          </g>
-          </svg>
-        </li><li class="has-children"> <a href="#">Extreme Sport</a>
-            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" viewBox="206 -205.9 511.9 511.9" xml:space="preserve">
-              <g>
-                <path class="activity-icon" d="M692.9,280.9C519.6,240.6,369.8,62.9,339.5,25c-0.3-0.4-0.8-0.6-1.3-0.5c-0.8,0.1-5.6,0.5-10.9,0.5h-26
+              C41.2,83.5,41.8,86.5,41.8,88z" />
+                </g>
+              </svg>
+            </li>
+            <li class="has-children"> <a href="#">Extreme Sport</a>
+              <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" viewBox="206 -205.9 511.9 511.9"
+                xml:space="preserve">
+                <g>
+                  <path class="activity-icon" d="M692.9,280.9C519.6,240.6,369.8,62.9,339.5,25c-0.3-0.4-0.8-0.6-1.3-0.5c-0.8,0.1-5.6,0.5-10.9,0.5h-26
                   c1-1.3,1.9-2.7,2.5-4.3c0.4-1,0.6-2.1,0.8-3.1c0.3-1.8,1.6-4.2,3.4-5.5c3.3-2.4,8.5-6,11.8-8.3c1.8-1.3,4.9-1.7,7-0.9
                   C339.3,7.3,379.1,22,379.1,22l41.4,14.9c2.1,0.7,4.2,3.1,4.7,5.2L429,56c0.5,2.1,0,4.9-1,6.4c-0.6,0.9-1,1.9-1.4,2.9
                   c-3,8.3,1.3,17.4,9.5,20.4c8.3,3,17.4-1.3,20.4-9.5c1.9-5.3,0.8-11-2.4-15.1c-1.4-1.7-3-4.6-3.3-6.7l-0.3-2.2c2,1,4.2,1.7,6.5,1.9
@@ -211,74 +246,83 @@
                   c0,5.3,4.3,9.6,9.6,9.6h91.2h9.6h343.8c5.3,0,10.3-4.2,10.9-9.5C695,289.7,695.4,281.5,692.9,280.9z M449,73.2
                   c-1.4,3.9-5.8,6-9.8,4.6c-3.9-1.4-6-5.8-4.6-9.8c1.4-3.9,5.8-6,9.8-4.5C448.3,64.9,450.4,69.2,449,73.2z M355.7-57.7l42.3,9.6
                   l47.5,28.8l-2.4,25.6l-51.5-18.7l-58.2-21.2L355.7-57.7z M282.1,12.5c1.4-3.9,5.8-6,9.8-4.6c4,1.4,6,5.8,4.6,9.8
-                  c-1.4,4-5.8,6-9.8,4.6C282.7,20.9,280.7,16.5,282.1,12.5z"/>
-                <circle class="activity-icon" cx="451.8" cy="-177.1" r="28.8"/>
-              </g>
-            </svg>
-          </li>
-        </ul>
-      </li>
+                  c-1.4,4-5.8,6-9.8,4.6C282.7,20.9,280.7,16.5,282.1,12.5z" />
+                  <circle class="activity-icon" cx="451.8" cy="-177.1" r="28.8" />
+                </g>
+              </svg>
+            </li>
+          </ul>
+        </li>
 
 
-      <li class="kits-nav has-children"> <a href="#">Gear Kits</a>
-        <ul class="secondary-nav kits-nav is-hidden">
+        <li class="kits-nav has-children"> <a href="#">Gear Kits</a>
+          <ul class="secondary-nav kits-nav is-hidden">
 
-          <li class="has-children"> <a href="#">Action Kits</a>
-            <ul class="tertiary-nav is-hidden">
-              <li><a href="#">Mount, carry and use your phone, tablet and devices in ways you never thought possible</a></li>
-            </ul>
-          </li><li class="has-children"> <a href="#">Mobile Kits</a>
-            <ul class="tertiary-nav is-hidden">
-              <li><a href="#">Mount, carry and use your phone, tablet and devices in ways you never thought possible</a></li>
-            </ul>
-          </li><li class="has-children"> <a href="#">Photo Kits</a>
-            <ul class="tertiary-nav is-hidden">
-              <li><a href="#">Mount, carry and use your phone, tablet and devices in ways you never thought possible</a></li>
-            </ul>
-          </li>
-        </ul>
-      </li>
+            <li class="has-children"> <a href="#">Action Kits</a>
+              <ul class="tertiary-nav is-hidden">
+                <li><a href="#">Mount, carry and use your phone, tablet and devices in ways you never thought
+                    possible</a></li>
+              </ul>
+            </li>
+            <li class="has-children"> <a href="#">Mobile Kits</a>
+              <ul class="tertiary-nav is-hidden">
+                <li><a href="#">Mount, carry and use your phone, tablet and devices in ways you never thought
+                    possible</a></li>
+              </ul>
+            </li>
+            <li class="has-children"> <a href="#">Photo Kits</a>
+              <ul class="tertiary-nav is-hidden">
+                <li><a href="#">Mount, carry and use your phone, tablet and devices in ways you never thought
+                    possible</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
 
-      <li class="inspiration-nav has-children"> <a href="#">Inspiration</a>
-        <ul class="secondary-nav is-hidden">
+        <li class="inspiration-nav has-children"> <a href="#">Inspiration</a>
+          <ul class="secondary-nav is-hidden">
 
-          <li class="has-children"> <a href="#">The JOBY Blog</a>
-            <ul class="tertiary-nav is-hidden">
-              <li><a href="#">Latest news and articles, know-how, tips and tricks, it's all here!</a></li>
-            </ul>
-          </li><li class="has-children"> <a href="#">JOBY Community</a>
-            <ul class="tertiary-nav is-hidden">
-              <li><a href="#">Join our community of talented enthusiasts, share your cool projects and follow us on social!</a></li>
-            </ul>
-          </li><li class="has-children"> <a href="#">Assignments <br> &amp; Activities</a>
-            <ul class="tertiary-nav is-hidden">
-              <li><a href="#">Up for a challenge? Take part in our fun assignments, show us what you got, and win prizes!</a></li>
-            </ul>
-          </li><li class="has-children"> <a href="#">Innovation</a>
-            <ul class="tertiary-nav is-hidden">
-              <li><a href="#">Learn about JOBY innovation process and what makes our products stand out in the crowd!</a></li>
-            </ul>
-          </li>
-        </ul>
-      </li>
+            <li class="has-children"> <a href="#">The JOBY Blog</a>
+              <ul class="tertiary-nav is-hidden">
+                <li><a href="#">Latest news and articles, know-how, tips and tricks, it's all here!</a></li>
+              </ul>
+            </li>
+            <li class="has-children"> <a href="#">JOBY Community</a>
+              <ul class="tertiary-nav is-hidden">
+                <li><a href="#">Join our community of talented enthusiasts, share your cool projects and follow us on
+                    social!</a></li>
+              </ul>
+            </li>
+            <li class="has-children"> <a href="#">Assignments <br> &amp; Activities</a>
+              <ul class="tertiary-nav is-hidden">
+                <li><a href="#">Up for a challenge? Take part in our fun assignments, show us what you got, and win
+                    prizes!</a></li>
+              </ul>
+            </li>
+            <li class="has-children"> <a href="#">Innovation</a>
+              <ul class="tertiary-nav is-hidden">
+                <li><a href="#">Learn about JOBY innovation process and what makes our products stand out in the
+                    crowd!</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
 
-    </ul>
-  </nav>
-  <!-- END NAVIGATION --> 
+      </ul>
+    </nav>
+    <!-- END NAVIGATION -->
 
-</header>
+  </header>
   <div class="hero">
     <!-- <img src="img/Hand_Grip_with_UltraPlate208_hero.jpg" alt=""> -->
     <img src="img/SuctionCup_LockArm_RathwellJ-8385_4C.jpg" alt="">
 
   </div>
-<!-- <p><a href="http://codyhouse.co/demo/secondary-expandable-navigation/index.html">Mobile menu</a></p>
+  <!-- <p><a href="http://codyhouse.co/demo/secondary-expandable-navigation/index.html">Mobile menu</a></p>
 <p><a href="http://codyhouse.co/demo/mega-site-navigation/index.html">Mobile menu 2</a></p>
 <p><a href="http://tympanus.net/codrops/2013/04/17/slide-and-push-menus/">Slide out menu</a></p> -->
 
-  
+
 </body>
+
 </html>
-
-
-
