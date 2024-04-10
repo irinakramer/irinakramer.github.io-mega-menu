@@ -96,7 +96,7 @@ header a {
 /* line 99, ../scss/joby-menu.scss */
 .products-nav > .secondary-nav > .has-children,
 .activity-nav > .secondary-nav > .has-children {
-  width: 16.5%;
+  width: 16.2%;
   /* border: 1px solid yellow;*/
 }
 
@@ -322,6 +322,7 @@ header a {
 .products-nav > .secondary-nav .tertiary-nav {
   text-align: left;
   padding: 0 0 0 20px;
+  width: 100%
 }
 /* line 290, ../scss/joby-menu.scss */
 .products-nav > .secondary-nav > .has-children:hover > .tertiary-nav > li:hover > a {
